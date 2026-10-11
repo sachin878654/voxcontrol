@@ -1,0 +1,37 @@
+{
+  "speech_recognition": {
+    "engine": "google",
+    "model_size": "tiny.en",
+    "device": "cpu",
+    "compute_type": "int8",
+    "language": "en",
+    "energy_threshold": 700,
+    "dynamic_energy_threshold": false,
+    "record_timeout": 5.0,
+    "phrase_timeout": 0.8,
+    "fallback_to_google": true
+  },
+  "text_to_speech": {
+    "enabled": true,
+    "voice_index": 0,
+    "speech_rate": 180,
+    "volume": 0.95
+  },
+  "automation": {
+    "pyautogui_pause": 0.2,
+    "step_delay": 0.5,
+    "action_timeout": 8.0,
+    "confirm_sensitive_actions": true,
+    "safe_mode": true
+  },
+  "browser": {
+    "preferred_browser": "chrome",
+    "use_playwright_for_deep_automation": true,
+    "headless": false
+  },
+  "ui": {
+    "theme": "dark",
+    "color_theme": "blue",
+    "window_size": [1080, 720]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "notepad": {
+    "aliases": ["notepad", "text editor", "note pad", "notes"],
+    "executable": "notepad.exe",
+    "window_titles": ["Notepad"],
+    "category": "editor"
+  },
+  "calculator": {
+    "aliases": ["calculator", "calc"],
+    "executable": "calc.exe",
+    "window_titles": ["Calculator"],
+    "category": "utility"
+  },
+  "chrome": {
+    "aliases": ["chrome", "google chrome", "browser"],
+    "executable": "chrome.exe",
+    "known_paths": [
+      "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+      "%LOCALAPPDATA%\\Google\\Chrome\\Application\\chrome.exe"
+    ],
+    "window_titles": ["Google Chrome", "Chrome"],
+    "category": "browser"
+  },
+  "edge": {
+    "aliases": ["edge", "microsoft edge"],
+    "executable": "msedge.exe",
+    "known_paths": [
+      "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+      "C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe"
+    ],
+    "window_titles": ["Microsoft Edge", "Edge"],
+    "category": "browser"
+  },
+  "explorer": {
+    "aliases": ["file explorer", "explorer", "files", "my computer", "folder"],
+    "executable": "explorer.exe",
+    "window_titles": ["File Explorer", "This PC", "Home", "Documents", "Downloads", "Desktop"],
+    "category": "system"
+  },
+  "vscode": {
+    "aliases": ["vs code", "vscode", "visual studio code", "code editor"],
+    "executable": "code",
+    "known_paths": [
+      "%LOCALAPPDATA%\\Programs\\Microsoft VS Code\\Code.exe",
+      "%PROGRAMFILES%\\Microsoft VS Code\\Code.exe"
+    ],
+    "window_titles": ["Visual Studio Code"],
+    "category": "developer"
+  },
+  "whatsapp": {
+    "aliases": ["whatsapp", "whats app"],
+    "executable": "WhatsApp.exe",
+    "web_url": "https://web.whatsapp.com",
+    "window_titles": ["WhatsApp"],
+    "category": "communication"
+  },
+  "settings": {
+    "aliases": ["settings", "windows settings", "system settings"],
+    "protocol": "ms-settings:",
+    "window_titles": ["Settings"],
+    "category": "system"
+  },
+  "word": {
+    "aliases": ["word", "microsoft word", "winword"],
+    "executable": "winword.exe",
+    "window_titles": ["Word"],
+    "category": "editor"
+  },
+  "cmd": {
+    "aliases": ["command prompt", "cmd", "terminal"],
+    "executable": "cmd.exe",
+    "window_titles": ["Command Prompt"],
+    "category": "utility"
+  },
+  "taskmgr": {
+    "aliases": ["task manager", "taskmgr"],
+    "executable": "taskmgr.exe",
+    "window_titles": ["Task Manager"],
+    "category": "utility"
+  }
+}
